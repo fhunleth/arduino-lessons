@@ -1,0 +1,24 @@
+Notes
+
+Some words needed more explanation. Here are a few: IDE, compiler,
+resister, configure, LED.
+
+Installation needed help. Getting the serial port to work was
+by far the hardest part. Not plugging in the USB cable all the
+way could still make the lights go on, but would cause the
+Arduino to not enumerate.
+
+The setup and loop functions needed to be explained.
+
+It was a little confusing since the upload process would blink LED 13
+before running the program. It was nice to use LED 13, since it just
+worked, but it might be worthwhile connecting up an LED first to one
+of the other pins.
+
+The circuit diagram picture was good, but the instructions below it 
+were easily skipped. This resulted in the LED being placed in
+backwards.
+
+The pattern question was confusing. An example would help like make
+the LED go on for a second, off for a second, on for 2 seconds, off
+for a second and repeat.
