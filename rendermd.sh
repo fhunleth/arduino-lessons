@@ -12,4 +12,4 @@ OUTPUT_HTML=${DIRNAME}/${BASE}.html
 
 echo Creating $OUTPUT_PDF...
 $PANDOC -f $MARKDOWN -t html5 -s --highlight-style pygments --section-divs -o "$OUTPUT_HTML" "$1"
-wkhtmltopdf "$OUTPUT_HTML" "$OUTPUT_PDF"
+wkhtmltopdf -s letter "$OUTPUT_HTML" "$OUTPUT_PDF"
